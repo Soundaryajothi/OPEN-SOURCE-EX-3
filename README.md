@@ -1,11 +1,11 @@
 # OPEN-SOURCE-EX-3
 # NAME:SOUNDARYA J
 # REG NO:212223220108
-# Aim
+# Aim:
 
 To create a group named admin, add users harry and natasha to the group as secondary members, create a user sarah without interactive shell access, and set passwords for all three users in Red Hat Enterprise Linux.
 
-# Algorithm
+# Algorithm:
 <H2>Step 1:</H2>
 Start the Terminal.
 Open the terminal in the Red Hat Linux environment with administrative privileges.
@@ -30,7 +30,7 @@ Display the groups of each user to confirm the correct group assignments.
 Verify Non-Interactive Shell Access.
 Check the user details of sarah in the /etc/passwd file to confirm that the shell is set to /sbin/nologin.
 
-# Steps Involved
+# Steps Involved:
 ```
 STEP 1 : sudo groupadd admin
 STEP 2 : sudo useradd -m -G admin harry
@@ -44,10 +44,10 @@ STEP 6 : groups harry
           groups sarah
 STEP 7 : grep sarah /etc/passwd
 ```
-Output
+# Output:
 <img width="907" height="604" alt="image" src="https://github.com/user-attachments/assets/9816be47-9cb6-4a9d-a8bc-19ccc311292a" />
 
 
-Result
+# Result:
 
 Thus, the users, groups, and memberships were successfully created and verified in Red Hat Enterprise Linux using appropriate administrative commands.
